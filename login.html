@@ -6,9 +6,11 @@
     <title>19BCE1042</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="login.css" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+    
   </head>
-
   <body>
+    
       <div class="row no-gutters">
         <div class="col-sm-12 col-lg-5 col-md-5">
           <div class="box1">
@@ -30,103 +32,119 @@
         <div class="col-sm-12 col-lg-7 col-md-7 box2">
           <div class="container-fluid">
             <div class="row no-gutters">
-              <div class="col-12 align-self-start">
-                <div>
-                  <h1 class="hero__title is--g7">Create your account here</h1>
-                </div>
-               </div>
 
 
                 <div class="col-12 align-self-center">
-                    <div class="d-flex justify-content-center">
-                        <form id="signup_marketing_form" class="form-4">
-                          <div class="details-form">
-                            <div
-                              id="signup_marketing_form_name_error"
-                              class="form-group tight w-clearfix"
-                            >
-                              <label for="first_name" class="label-large left dark"
-                                >Full Name</label
-                              >
-                              <input
-                                type="text"
-                                class="input_large tall outline w-input"
-                                maxlength="256"
-                                name="first_name"
-                                data-name="First Name"
-                                placeholder="Your Name"
-                                id="first_name"
-                              />
-                            </div>
-      
-                            <br />
-                            <div
-                              id="signup_marketing_form_email_error"
-                              class="form-group tight w-clearfix"
-                            >
-                              <label for="email_address" class="label-large left dark"
-                                >Email</label
-                              >
-                              <input
-                                type="email"
-                                class="input_large tall outline w-input"
-                                maxlength="256"
-                                name="email_address"
-                                data-name="Email Address"
-                                placeholder="Your Email Address"
-                                id="email_address"
-                              />
-                            </div>
-      
-                            <br />
-                            <div
-                              id="signup_marketing_form_email_error"
-                              class="form-group tight w-clearfix"
-                            >
-                              <label for="password" class="label-large left dark"
-                                >Create Password</label
-                              >
-                              <input
-                                type="password"
-                                class="input_large tall outline w-input"
-                                maxlength="256"
-                                name="password"
-                                data-name="Password"
-                                placeholder="Create Password"
-                                id="password"
-                              />
-                            </div>
-      
-                            <br />
-      
-                            <div
-                              id="signup_marketing_form_email_error"
-                              class="form-group tight w-clearfix"
-                            >
-                              <label for="password" class="label-large left dark"
-                                >Confirm Password</label
-                              >
-                              <input
-                                type="password"
-                                class="input_large tall outline w-input"
-                                maxlength="256"
-                                name="confirm_password"
-                                data-name="Password"
-                                placeholder="Confirm Password"
-                                id="confirm_password"
-                              />
-                            </div>
-      
-                            <div>
-                              <div
-                                onclick="return Validate()"
-                                type="button"
-                                id="signup_marketing_next"
-                                class="button small signup">get started</div>
-                            </div>
+                  <div class="container">
+                    <h1 class="hero__title is--g7">Create your account here</h1>
+                    <div>
+                      <form id="signup_marketing_form" class="form-4">
+                        <div class="details-form">
+                          <div class="profile">
+                            <div id='profile-upload'>
+                              <div class="hvr-profile-img">
+                                <input type="file" name="logo" id='getval'  class="upload"  id="imag">
+                                <div class="icon">
+                                  <div class="camera4"><span></span></div>
+                                </div>
+                                </div>
+                                </div>
+                                
                           </div>
-                        </form>
-                      </div>
+                          <div
+                            id="signup_marketing_form_name_error"
+                            class="form-group tight w-clearfix"
+                          >
+                            <label for="first_name" class="label-large left dark"
+                              >Full Name</label
+                            >
+                            <br>
+                            <input
+                              type="text"
+                              class="input_large tall outline w-input"
+                              maxlength="256"
+                              name="first_name"
+                              data-name="First Name"
+                              placeholder="Your Name"
+                              id="first_name"
+                            />
+                          </div>
+    
+                          <br />
+                          <div
+                            id="signup_marketing_form_email_error"
+                            class="form-group tight w-clearfix"
+                          >
+                            <label for="email_address" class="label-large left dark"
+                              >Email</label
+                            >
+                            <input
+                              type="email"
+                              class="input_large tall outline w-input"
+                              maxlength="256"
+                              name="email_address"
+                              data-name="Email Address"
+                              placeholder="Your Email Address"
+                              id="email_address"
+                            />
+                          </div>
+    
+                          <br />
+                          <div
+                            id="signup_marketing_form_email_error"
+                            class="form-group tight w-clearfix"
+                          >
+                            <label for="password" class="label-large left dark"
+                              >Create Password</label
+                            >
+                            <input
+                              type="password"
+                              class="input_large tall outline w-input"
+                              maxlength="256"
+                              name="password"
+                              data-name="Password"
+                              placeholder="Create Password"
+                              id="password"
+                            />
+                          </div>
+    
+                          <br />
+    
+                          <div
+                            id="signup_marketing_form_email_error"
+                            class="form-group tight w-clearfix"
+                          >
+                            <label for="password" class="label-large left dark"
+                              >Confirm Password</label
+                            >
+                            <input
+                              type="password"
+                              class="input_large tall outline w-input"
+                              maxlength="256"
+                              name="confirm_password"
+                              data-name="Password"
+                              placeholder="Confirm Password"
+                              id="confirm_password"
+                            />
+                          </div>
+                          <br>
+                          <div class="btn-group btn-group-horizontal" data-toggle="buttons">
+                            <label class="btn active"><input class="input-hide" type="radio" name='gender1' checked><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i><span> COVID mentor</span></label>
+                            <label class="btn active"><input class="input-hide"type="radio" name='gender1' checked><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i><span> Normal User</span></label>
+                          </div>
+                          
+                          <div>
+                            <div
+                              onclick="return Validate()"
+                              type="button"
+                              id="signup_marketing_next"
+                              class="button small signup">get started</div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                    
                 </div>
               </div>
             </div>
